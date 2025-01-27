@@ -12,6 +12,12 @@ st.set_page_config(
 
 )
 
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 hide_streamlit_style = """
     <style>
     #MainMenu {visibility: hidden;}
